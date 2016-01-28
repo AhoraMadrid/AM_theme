@@ -1,6 +1,6 @@
-Para instalar el sistema (más o menos)
-======================================
-<blockquote>
+# Para instalar el sistema (más o menos)
+
+```sh
 $ curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
 $ mv wp-cli.phar wp
 $ chmod 755 wp
@@ -13,4 +13,4 @@ $ ./wp plugin install jetpack html-editor-syntax-highlighter mass-pagesposts-cre
 $ ./wp plugin install ~/Downloads/ahora_madrid/bloom.zip ~/Downloads/ahora_madrid/divi-builder.zip ~/Downloads/ahora_madrid/et-shortcodes.zip ~/Downloads/ahora_madrid/elegantbuilder.zip ~/Downloads/ahora_madrid/handheld.zip ~/Downloads/ahora_madrid/monarch.zip --activate
 $ ./wp theme install ~/Downloads/ahora_madrid/Divi.zip
 $ ./wp theme activate AM_theme
-<blockquote>
+```
